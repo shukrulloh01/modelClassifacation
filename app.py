@@ -4,7 +4,7 @@ from fastai.vision.all import *
 
 
 st.title('Guruhlovchi model\n Bird Insect Animal')
-file = st.file_uploader('Rasm yuklash', type=['png', 'jpeg', 'jpg' 'gif', 'svg'])
+file = st.file_uploader('Rasm yuklash', type=['png', 'jpeg', 'jpg', 'gif', 'svg'])
 if file:
     st.image(file)
     img = PILImage.create(file)
